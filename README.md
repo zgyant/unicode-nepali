@@ -1,8 +1,8 @@
 # Nepali Unicode Converter
 
 [![npm version](https://badge.fury.io/js/nepali-unicode-converter.svg)](https://www.npmjs.com/package/nepali-unicode-converter)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/nepali-unicode-converter.svg)](https://github.com/your-username/nepali-unicode-converter/issues)
-[![GitHub license](https://img.shields.io/github/license/your-username/nepali-unicode-converter.svg)](https://github.com/your-username/nepali-unicode-converter/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/z9yant/nepali-unicode-converter.svg)](https://github.com/z9yant/nepali-unicode-converter/issues)
+[![GitHub license](https://img.shields.io/github/license/z9yant/nepali-unicode-converter.svg)](https://github.com/z9yant/nepali-unicode-converter/blob/main/LICENSE)
 
 ## Description
 
