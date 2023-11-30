@@ -1,0 +1,20 @@
+{
+  "name": "unicode-nepali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgyant/unicode-nepali.git"
+  },
+  "keywords": ["nepali", "unicode"],
+  "author": "Jayant Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgyant/unicode-nepali/issues"
+  },
+  "homepage": "https://github.com/zgyant/unicode-nepali#readme"
+}
