@@ -1,8 +1,5 @@
 # Nepali Unicode Converter
-
-[![npm version](https://badge.fury.io/js/nepali-unicode-converter.svg)](https://www.npmjs.com/package/nepali-unicode-converter)
-[![GitHub issues](https://img.shields.io/github/issues/z9yant/nepali-unicode-converter.svg)](https://github.com/z9yant/nepali-unicode-converter/issues)
-[![GitHub license](https://img.shields.io/github/license/z9yant/nepali-unicode-converter.svg)](https://github.com/z9yant/nepali-unicode-converter/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -12,6 +9,7 @@ Nepali Unicode Converter is a JavaScript library for converting text to Nepali U
 
 ```bash
 npm install nepali-unicode-converter
+```
 
 ## Usage
 
@@ -19,6 +17,7 @@ npm install nepali-unicode-converter
 const nepaliUnicode = require('nepali-unicode-converter'); // Example usage
 const result = nepaliUnicode("k cha").convert().getText();
 console.log("Converted Text:", result);
+```
 
 
 ## Features
@@ -55,6 +54,7 @@ const instance = nepaliUnicode("k cha");
 const result = instance.convert().getText();
 
 const randomWord = instance.generateRandomNepaliWord(5);
+```
 
 
 **Return Value:** A randomly generated Nepali word with the specified length.
@@ -63,14 +63,15 @@ const randomWord = instance.generateRandomNepaliWord(5);
 
 - Use this method to generate a random Nepali word with a specific length.
 
-### `instance.wordDetailsObject()`
+### `instance.wordsBreakdown()`
 
 **Description:** Returns an object for each word containing its English Unicode points, Nepali representation, and Nepali Unicode points.
 
 **Example:**
 
-javascript
-const detailsObject = instance.wordDetailsObject();
+```javascript
+const detailsObject = instance.wordsBreakdown();
+```
 
 
 **Return Value:** An object containing details for each word, including English Unicode points, Nepali representation, and Nepali Unicode points.
@@ -78,6 +79,19 @@ const detailsObject = instance.wordDetailsObject();
 **Usage Considerations:**
 
 - Use this method to get details for each word in the text, including its English Unicode points, Nepali representation, and Nepali Unicode points.
+
+## Methods
+
+### `instance.convert()`
+### `instance.reverse()`
+### `instance.countNepaliCharacters()`
+### `instance.removeNepaliUnicode()`
+### `instance.translateNumerals()`
+### `instance.generateRandomNepaliWord()`
+### `instance.containsNepaliUnicode()`
+### `instance.wordsBreakdown()`
+
+
 
 ## Contributing
 
